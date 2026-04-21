@@ -1,54 +1,62 @@
-# Remotion video
+# remotion-playground
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Multi-project Remotion workspace. Each video project is a self-contained folder under `src/projects/<name>/` with its own scenes, theme, and Composition registration, sharing one React/Remotion install.
 
-Welcome to your Remotion project!
+## Layout
 
-## Commands
+```
+src/
+├─ Root.tsx                          mounts every project's <Folder>
+├─ index.css · index.ts
+└─ projects/
+   └─ typelands-promo/
+      ├─ register.tsx                <Folder> + <Composition> entries
+      ├─ Promo.tsx                   master composition
+      ├─ scenes/…                    scene components
+      ├─ theme.ts · fonts.ts         project constants + local font loading
+      └─ PaperBackground.tsx
 
-**Install Dependencies**
+public/
+└─ typelands-promo/…                 static assets resolved via staticFile()
 
-```console
-npm i
+scripts/
+├─ copy-typelands-assets.js          pulls assets from a sibling typelands-v1 checkout
+├─ video-dims.js                     reads MOV/MP4 tkhd atom for dimensions
+└─ sprite-centroid.js                measures per-cell centroid of a sprite sheet
 ```
 
-**Start Preview**
+## Setup
 
-```console
-npm run dev
+```bash
+npm install
+npm run assets:typelands-promo       # hydrates heavy binaries from ../typelands-v1
+npm run dev                          # http://localhost:3000
 ```
 
-**Render video**
+Large binaries (`*.mov`, `*.mp4`, `*.mp3`, `*.ttf`) under `public/` are `.gitignored`
+— they're staged from adjacent repos via scripts so the Git history stays small.
+Run the `assets:*` script for each project after cloning.
 
-```console
-npx remotion render
+## Rendering
+
+```bash
+npx remotion render TypelandsPromo-Portrait  out/typelands-portrait.mp4
+npx remotion render TypelandsPromo-Landscape out/typelands-landscape.mp4
 ```
 
-**Upgrade Remotion**
+## Adding a new project
 
-```console
-npx remotion upgrade
-```
+1. `mkdir src/projects/my-project`
+2. Author scenes + a `register.tsx` that exports `<Folder name="my-project">…</Folder>`
+3. Import and mount it from `src/Root.tsx`
+4. If it has heavy assets, add a `scripts/copy-<project>-assets.js` and matching `.gitignore` entries + `npm run assets:<project>` script
 
-## Docs
+## Projects
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
+| Project | Compositions | Source |
+|---|---|---|
+| **typelands-promo** | `TypelandsPromo-Portrait` (1080×1920), `TypelandsPromo-Landscape` (1920×1080) | `../typelands-v1` |
 
-## Help
+## Remotion docs
 
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+[Fundamentals](https://www.remotion.dev/docs/the-fundamentals) · [License terms](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md) (some commercial use requires a company license).

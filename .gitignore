@@ -3,5 +3,22 @@ dist
 .DS_Store
 .env
 
-# Ignore the output video from Git but not videos you import into src/.
+# Rendered output
 out
+
+# Heavy source assets staged from other repos — keep the repo small.
+# Regenerate with: npm run assets:typelands-promo
+public/typelands-promo/videos/
+public/typelands-promo/sounds/
+public/typelands-promo/fonts/
+
+# Local agent/skill artifacts (installed per-project, not tracked).
+# Reinstall with: npx skills add remotion-dev/skills
+.agents/
+.claude/
+skills/
+skills-lock.json
+
+# Editor
+.vscode/
+.idea/
