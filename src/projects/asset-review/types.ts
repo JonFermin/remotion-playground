@@ -1,4 +1,15 @@
-export type ReviewRegion = { x: number; y: number; w: number; h: number };
+export type ReviewRegion = {
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  // Per-frame overrides used by detectors that store each frame as its own
+  // PNG (e.g. T3 loose frames). When absent, the animation-level sheet is
+  // used.
+  sheet?: string;
+  sheetWidth?: number;
+  sheetHeight?: number;
+};
 
 export type ReviewAnimation = {
   name: string;

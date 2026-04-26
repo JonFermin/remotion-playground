@@ -15,6 +15,17 @@ import type {
 const BG = "#0b0d12";
 const INSET = 0.06;
 
+function resolveFrameSheet(
+  animation: ReviewAnimation,
+  region: ReviewRegion,
+): { sheet: string; sheetW: number; sheetH: number } {
+  return {
+    sheet: region.sheet ?? animation.sheet,
+    sheetW: region.sheetWidth ?? animation.sheetWidth,
+    sheetH: region.sheetHeight ?? animation.sheetHeight,
+  };
+}
+
 function Sprite({
   animation,
   region,
@@ -35,6 +46,7 @@ function Sprite({
   const frameH = region.h * scale;
   const offsetX = (boxW - frameW) / 2;
   const offsetY = (boxH - frameH) / 2;
+  const { sheet, sheetW, sheetH } = resolveFrameSheet(animation, region);
   return (
     <div
       style={{
@@ -55,10 +67,10 @@ function Sprite({
         }}
       >
         <Img
-          src={staticFile(`asset-review/${animation.sheet}`)}
+          src={staticFile(`asset-review/${sheet}`)}
           style={{
-            width: animation.sheetWidth * scale,
-            height: animation.sheetHeight * scale,
+            width: sheetW * scale,
+            height: sheetH * scale,
             maxWidth: "none",
             maxHeight: "none",
             position: "absolute",
@@ -148,19 +160,34 @@ export const AssetReview: React.FC<ReviewProps> = ({
 
   // Preload upcoming sheets so Remotion doesn't block the last frame of an
   // animation while the next animation's PNG is being fetched. Pixelfrog uses
-  // one PNG per animation, so we have to preload across same-character
-  // animation transitions too — not just character transitions.
-  const PRELOAD_AHEAD = 3;
+  // one PNG per animation; T3 loose-frame detectors use one PNG per frame —
+  // so we walk both upcoming clips and the remaining frames of the current
+  // animation, deduping by sheet URL.
+  const PRELOAD_AHEAD = 6;
   const preloadSheets: string[] = [];
-  const seen = new Set<string>([animation.sheet]);
+  const { sheet: currentSheet } = resolveFrameSheet(animation, region);
+  const seen = new Set<string>([currentSheet]);
+  // Remaining frames of the current animation.
+  for (let i = spriteIndex + 1; i < animation.frames.length; i++) {
+    const f = animation.frames[i];
+    const s = f.sheet ?? animation.sheet;
+    if (!seen.has(s)) {
+      seen.add(s);
+      preloadSheets.push(s);
+    }
+  }
+  // Upcoming clips.
   for (let i = 1; i <= PRELOAD_AHEAD; i++) {
     const idx = clipIndex + i;
     if (idx >= schedule.clips.length) break;
     const c = schedule.clips[idx];
     const a = characters[c.characterIndex].animations[c.animationIndex];
-    if (!seen.has(a.sheet)) {
-      seen.add(a.sheet);
-      preloadSheets.push(a.sheet);
+    // Use the first frame's sheet (representative); also the animation default.
+    const firstFrame = a.frames[0];
+    const s = (firstFrame && firstFrame.sheet) ?? a.sheet;
+    if (!seen.has(s)) {
+      seen.add(s);
+      preloadSheets.push(s);
     }
   }
 

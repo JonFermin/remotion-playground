@@ -80,6 +80,16 @@ export const AssetReviewFolder: React.FC = () => {
         defaultProps={{ ...baseProps, detectorFilter: "T1-kenney-xml" }}
         calculateMetadata={calculateMetadata}
       />
+      <Composition
+        id="AssetReview-Loose"
+        component={AssetReview}
+        durationInFrames={1}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+        defaultProps={{ ...baseProps, detectorFilter: "T3-loose-frames" }}
+        calculateMetadata={calculateMetadata}
+      />
     </Folder>
   );
 };

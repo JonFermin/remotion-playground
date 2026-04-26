@@ -1,8 +1,10 @@
 // Walks game-assets/ and produces a "review reel" manifest of detected sprite
-// animations across creators. Two detectors today:
+// animations across creators. Detectors:
 //
-//   T2-pixelfrog   filename pattern "Name (WxH).png" → horizontal-strip animation
 //   T1-kenney-xml  TexturePacker XML "Spritesheet/spritesheet_*.xml" → showcase
+//   T2-pixelfrog   filename pattern "Name (WxH).png" → horizontal-strip animation
+//   T3-loose-frames  numbered loose PNGs in a directory → group by base name
+//                  (covers 0x72/dungeon-tileset-ii/frames and ansimuz/.../Sprites)
 //
 // Output:
 //   public/asset-review/manifest.json
@@ -11,6 +13,8 @@
 // The manifest schema is a superset of the duelyst manifest so it can drive the
 // same Sprite renderer in Remotion. Each character carries `pack` and
 // `detector` fields so the review composition can label them for triage.
+// Frames may carry their own sheet/sheetWidth/sheetHeight overrides (T3) when
+// each frame is its own PNG.
 
 const fs = require("fs");
 const path = require("path");
@@ -76,7 +80,7 @@ function relUnderRoot(file) {
 }
 
 const characters = [];
-const stats = { pixelfrog: 0, kenneyXml: 0, skipped: 0 };
+const stats = { pixelfrog: 0, kenneyXml: 0, looseFrames: 0, skipped: 0 };
 
 // ---------------------------------------------------------------------------
 // T2: Pixelfrog filename pattern
@@ -246,6 +250,139 @@ walk(KENNEY_ROOT, (file) => {
 });
 
 // ---------------------------------------------------------------------------
+// T3: Loose numbered frames in a directory
+//
+// A directory containing files matching <base>(<sep><num>)?.png is treated as
+// a set of animations grouped by `base`. The separator may be `_`, `-`, or
+// nothing. We split into anims by the longest stable prefix (e.g.
+// `angel_idle_anim_f0..f3` → base `angel_idle_anim_f` then dropping trailing
+// `_f` → animation `angel_idle`).
+//
+// Visited once per containing directory so each pack only generates entries
+// in places where loose frames exist.
+// ---------------------------------------------------------------------------
+const FRAME_REGEX = /^(.+?)[_\-]?(\d+)\.png$/;
+
+function detectLooseFrames(dir) {
+  let entries;
+  try {
+    entries = fs.readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return [];
+  }
+  // groups: base → [{ num, file, fullPath }]
+  const groups = new Map();
+  for (const e of entries) {
+    if (!e.isFile()) continue;
+    if (!e.name.toLowerCase().endsWith(".png")) continue;
+    const m = e.name.match(FRAME_REGEX);
+    if (!m) continue;
+    const baseRaw = m[1];
+    // Strip trailing "_anim_f", "_anim", "_f", or "-frame" to get a cleaner
+    // animation name (e.g. "angel_idle_anim_f" → "angel_idle").
+    const base = baseRaw
+      .replace(/[_\-](anim_f|anim|f|frame)$/i, "")
+      .replace(/[_\-]frame$/i, "");
+    const num = Number(m[2]);
+    if (!groups.has(base)) groups.set(base, []);
+    groups.get(base).push({
+      num,
+      file: e.name,
+      fullPath: path.join(dir, e.name),
+    });
+  }
+  const animations = [];
+  for (const [base, list] of groups) {
+    if (list.length < 2) continue; // need at least 2 frames to count as anim
+    list.sort((a, b) => a.num - b.num);
+    animations.push({ base, frames: list });
+  }
+  return animations;
+}
+
+// Walk the tree and apply the loose-frame detector to every directory. We
+// limit scope to creators where this format is known to exist to avoid
+// bringing in things like NFT renders or icon dumps.
+const T3_ROOTS = [
+  path.join(ASSETS_ROOT, "0x72"),
+  path.join(ASSETS_ROOT, "ansimuz"),
+];
+
+for (const root of T3_ROOTS) {
+  if (!fs.existsSync(root)) continue;
+  const dirs = [root];
+  while (dirs.length) {
+    const dir = dirs.pop();
+    let sub;
+    try {
+      sub = fs.readdirSync(dir, { withFileTypes: true });
+    } catch {
+      continue;
+    }
+    for (const e of sub) {
+      if (e.isDirectory() && e.name !== "__MACOSX") {
+        dirs.push(path.join(dir, e.name));
+      }
+    }
+    const anims = detectLooseFrames(dir);
+    if (anims.length === 0) continue;
+
+    const rel = relUnderRoot(dir);
+    const creator = rel[0];
+    const packParts = rel.slice(2); // skip "2d"
+    const pack = packParts.join("/") || creator;
+    const charName = packParts[packParts.length - 1] || creator;
+
+    // Build one ReviewCharacter per directory containing loose frames.
+    // Each base group becomes one animation; each frame is its own PNG (the
+    // frame carries its own sheet/sheetWidth/sheetHeight).
+    const animations = [];
+    for (const { base, frames: framesList } of anims) {
+      const frames = [];
+      for (const fr of framesList) {
+        const { width, height } = getPngSize(fr.fullPath);
+        const flat =
+          flatName([creator, ...packParts, fr.file]).replace(/\.png$/, "") +
+          ".png";
+        const sheet = copySheet(fr.fullPath, flat);
+        frames.push({
+          x: 0,
+          y: 0,
+          w: width,
+          h: height,
+          sheet,
+          sheetWidth: width,
+          sheetHeight: height,
+        });
+      }
+      const animName = base.replace(/_+$/, "").replace(/-+$/, "") || base;
+      animations.push({
+        name: animName,
+        speed: 9,
+        loop: true,
+        frames,
+        // Animation-level sheet uses the first frame as a fallback default.
+        sheet: frames[0].sheet,
+        sheetWidth: frames[0].sheetWidth,
+        sheetHeight: frames[0].sheetHeight,
+      });
+      stats.looseFrames++;
+    }
+
+    characters.push({
+      name: charName,
+      pack: `${creator}/${packParts.slice(0, -1).join("/") || charName}`,
+      faction: creator,
+      detector: "T3-loose-frames",
+      sheet: animations[0].sheet,
+      sheetWidth: animations[0].sheetWidth,
+      sheetHeight: animations[0].sheetHeight,
+      animations,
+    });
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Normalise pixelfrog entries (one sheet per animation → keep per-anim refs).
 // ---------------------------------------------------------------------------
 for (const c of characters) {
@@ -292,7 +429,7 @@ const totalFrames = characters.reduce(
 const manifest = {
   generatedAt: new Date().toISOString(),
   source: path.relative(path.resolve(__dirname, ".."), ASSETS_ROOT),
-  detectors: ["T1-kenney-xml", "T2-pixelfrog"],
+  detectors: ["T1-kenney-xml", "T2-pixelfrog", "T3-loose-frames"],
   stats: { ...stats, totalCharacters: characters.length, totalAnims, totalFrames },
   characters,
 };
@@ -303,11 +440,12 @@ fs.writeFileSync(
 );
 
 console.log(
-  `pixelfrog anims:    ${stats.pixelfrog}\n` +
-    `kenney xml sheets:  ${stats.kenneyXml}\n` +
-    `skipped:            ${stats.skipped}\n` +
-    `total characters:   ${characters.length}\n` +
-    `total animations:   ${totalAnims}\n` +
-    `total frames:       ${totalFrames}\n` +
-    `manifest:           ${path.join(DST, "manifest.json")}`,
+  `pixelfrog anims:     ${stats.pixelfrog}\n` +
+    `kenney xml sheets:   ${stats.kenneyXml}\n` +
+    `loose-frame anims:   ${stats.looseFrames}\n` +
+    `skipped:             ${stats.skipped}\n` +
+    `total characters:    ${characters.length}\n` +
+    `total animations:    ${totalAnims}\n` +
+    `total frames:        ${totalFrames}\n` +
+    `manifest:            ${path.join(DST, "manifest.json")}`,
 );

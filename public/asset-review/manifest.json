@@ -1,17 +1,19 @@
 {
-  "generatedAt": "2026-04-25T17:02:42.079Z",
+  "generatedAt": "2026-04-26T16:44:27.914Z",
   "source": "..\\game-assets",
   "detectors": [
     "T1-kenney-xml",
-    "T2-pixelfrog"
+    "T2-pixelfrog",
+    "T3-loose-frames"
   ],
   "stats": {
     "pixelfrog": 122,
     "kenneyXml": 44,
+    "looseFrames": 107,
     "skipped": 25,
-    "totalCharacters": 166,
-    "totalAnims": 242,
-    "totalFrames": 5057
+    "totalCharacters": 204,
+    "totalAnims": 349,
+    "totalFrames": 5499
   },
   "characters": [
     {
@@ -34599,6 +34601,5472 @@
           "sheet": "sheets/pixelfrog__treasure-hunters__Pirate-Ship__Sprites__Tilesets__Platforms-32x32-.png",
           "sheetWidth": 192,
           "sheetHeight": 128
+        }
+      ]
+    },
+    {
+      "name": "frames",
+      "pack": "0x72/dungeon-tileset-ii",
+      "faction": "0x72",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_idle_anim_f0.png",
+      "sheetWidth": 16,
+      "sheetHeight": 16,
+      "animations": [
+        {
+          "name": "angel_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "angel_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__angel_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "big_demon_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_idle_anim_f0.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_idle_anim_f1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_idle_anim_f2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_idle_anim_f3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_idle_anim_f0.png",
+          "sheetWidth": 32,
+          "sheetHeight": 36
+        },
+        {
+          "name": "big_demon_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_run_anim_f0.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_run_anim_f1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_run_anim_f2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_run_anim_f3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_demon_run_anim_f0.png",
+          "sheetWidth": 32,
+          "sheetHeight": 36
+        },
+        {
+          "name": "big_zombie_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_idle_anim_f0.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_idle_anim_f1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_idle_anim_f2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_idle_anim_f3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_idle_anim_f0.png",
+          "sheetWidth": 32,
+          "sheetHeight": 36
+        },
+        {
+          "name": "big_zombie_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_run_anim_f0.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_run_anim_f1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_run_anim_f2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_run_anim_f3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__big_zombie_run_anim_f0.png",
+          "sheetWidth": 32,
+          "sheetHeight": 36
+        },
+        {
+          "name": "bomb",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__bomb_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__bomb_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__bomb_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__bomb_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "chest_empty_open",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_empty_open_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_empty_open_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_empty_open_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_empty_open_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "chest_full_open",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_full_open_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_full_open_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_full_open_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_full_open_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "chest_mimic_open",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_mimic_open_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_mimic_open_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_mimic_open_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chest_mimic_open_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "chort_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "chort_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__chort_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "coin",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 6,
+              "h": 7,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__coin_anim_f0.png",
+              "sheetWidth": 6,
+              "sheetHeight": 7
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 6,
+              "h": 7,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__coin_anim_f1.png",
+              "sheetWidth": 6,
+              "sheetHeight": 7
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 6,
+              "h": 7,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__coin_anim_f2.png",
+              "sheetWidth": 6,
+              "sheetHeight": 7
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 6,
+              "h": 7,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__coin_anim_f3.png",
+              "sheetWidth": 6,
+              "sheetHeight": 7
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__coin_anim_f0.png",
+          "sheetWidth": 6,
+          "sheetHeight": 7
+        },
+        {
+          "name": "doc_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "doc_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__doc_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "dwarf_f_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "dwarf_f_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_f_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "dwarf_m_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "dwarf_m_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__dwarf_m_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "elf_f_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "elf_f_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_f_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "elf_m_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "elf_m_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__elf_m_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "floor",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_4.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_5.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_6.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_7.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_8.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_1.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "floor_spikes",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_spikes_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_spikes_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_spikes_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_spikes_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__floor_spikes_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "goblin_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "goblin_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__goblin_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "ice_zombie",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ice_zombie_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ice_zombie_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ice_zombie_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ice_zombie_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ice_zombie_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "imp_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "imp_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__imp_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "knight_f_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "knight_f_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_f_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "knight_m_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "knight_m_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__knight_m_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "lizard_f_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "lizard_f_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_f_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "lizard_m_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "lizard_m_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__lizard_m_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "masked_orc_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "masked_orc_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__masked_orc_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "muddy",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__muddy_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__muddy_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__muddy_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__muddy_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__muddy_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "necromancer",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__necromancer_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__necromancer_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__necromancer_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__necromancer_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__necromancer_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "ogre_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_idle_anim_f0.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_idle_anim_f1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_idle_anim_f2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_idle_anim_f3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_idle_anim_f0.png",
+          "sheetWidth": 32,
+          "sheetHeight": 36
+        },
+        {
+          "name": "ogre_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_run_anim_f0.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_run_anim_f1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_run_anim_f2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 36,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_run_anim_f3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 36
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__ogre_run_anim_f0.png",
+          "sheetWidth": 32,
+          "sheetHeight": 36
+        },
+        {
+          "name": "orc_shaman_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "orc_shaman_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_shaman_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "orc_warrior_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "orc_warrior_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__orc_warrior_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "pumpkin_dude_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "pumpkin_dude_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__pumpkin_dude_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "skelet_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "skelet_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__skelet_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "slug",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__slug_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__slug_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__slug_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__slug_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__slug_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "swampy",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__swampy_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__swampy_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__swampy_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__swampy_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__swampy_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "tiny_slug",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_slug_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_slug_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_slug_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_slug_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_slug_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "tiny_zombie_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "tiny_zombie_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__tiny_zombie_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "wall_fountain_basin_blue",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_basin_blue_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_basin_blue_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_basin_blue_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_basin_blue_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "wall_fountain_basin_red",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_basin_red_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_basin_red_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_basin_red_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_basin_red_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "wall_fountain_mid_blue",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_mid_blue_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_mid_blue_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_mid_blue_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_mid_blue_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "wall_fountain_mid_red",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_mid_red_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_mid_red_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_mid_red_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_mid_red_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "wall_fountain_top",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_top_1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_top_2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_top_3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_fountain_top_1.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "wall_hole",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_hole_1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_hole_2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wall_hole_1.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        },
+        {
+          "name": "wizzard_f_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "wizzard_f_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_f_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "wizzard_m_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "wizzard_m_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 28,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 28
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wizzard_m_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 28
+        },
+        {
+          "name": "wogol_idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_idle_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_idle_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_idle_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_idle_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_idle_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "wogol_run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_run_anim_f0.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_run_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_run_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 23,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_run_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 23
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__wogol_run_anim_f0.png",
+          "sheetWidth": 16,
+          "sheetHeight": 23
+        },
+        {
+          "name": "zombie",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__zombie_anim_f1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__zombie_anim_f2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__zombie_anim_f3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/0x72__dungeon-tileset-ii__frames__zombie_anim_f10.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/0x72__dungeon-tileset-ii__frames__zombie_anim_f1.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        }
+      ]
+    },
+    {
+      "name": "Sprites",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Bat",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Bat__Sprites__bat1.png",
+      "sheetWidth": 48,
+      "sheetHeight": 48,
+      "animations": [
+        {
+          "name": "bat",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Bat__Sprites__bat1.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Bat__Sprites__bat2.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Bat__Sprites__bat3.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Bat__Sprites__bat4.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Bat__Sprites__bat5.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Bat__Sprites__bat1.png",
+          "sheetWidth": 48,
+          "sheetHeight": 48
+        }
+      ]
+    },
+    {
+      "name": "Idle",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Crab/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Idle__crab-idle1.png",
+      "sheetWidth": 48,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "crab-idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Idle__crab-idle1.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Idle__crab-idle2.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Idle__crab-idle3.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Idle__crab-idle4.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Idle__crab-idle1.png",
+          "sheetWidth": 48,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Walk",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Crab/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Walk__crab-walk1.png",
+      "sheetWidth": 48,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "crab-walk",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Walk__crab-walk1.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Walk__crab-walk2.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Walk__crab-walk3.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Walk__crab-walk4.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Walk__crab-walk5.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Walk__crab-walk6.png",
+              "sheetWidth": 48,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crab__Sprites__Walk__crab-walk1.png",
+          "sheetWidth": 48,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Hide",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Crystal Snail/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame1.png",
+      "sheetWidth": 48,
+      "sheetHeight": 59,
+      "animations": [
+        {
+          "name": "frame",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame1.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame2.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame3.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame4.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame5.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame6.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame7.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame8.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame9.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame10.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Hide__frame1.png",
+          "sheetWidth": 48,
+          "sheetHeight": 59
+        }
+      ]
+    },
+    {
+      "name": "Move",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Crystal Snail/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Move__frame1.png",
+      "sheetWidth": 48,
+      "sheetHeight": 59,
+      "animations": [
+        {
+          "name": "frame",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Move__frame1.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Move__frame2.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 59,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Move__frame3.png",
+              "sheetWidth": 48,
+              "sheetHeight": 59
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Crystal-Snail__Sprites__Move__frame1.png",
+          "sheetWidth": 48,
+          "sheetHeight": 59
+        }
+      ]
+    },
+    {
+      "name": "Sprites",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/FlyEye",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__FlyEye__Sprites__fly-eye1.png",
+      "sheetWidth": 48,
+      "sheetHeight": 48,
+      "animations": [
+        {
+          "name": "fly-eye",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__FlyEye__Sprites__fly-eye1.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__FlyEye__Sprites__fly-eye2.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__FlyEye__Sprites__fly-eye3.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__FlyEye__Sprites__fly-eye4.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__FlyEye__Sprites__fly-eye1.png",
+          "sheetWidth": 48,
+          "sheetHeight": 48
+        }
+      ]
+    },
+    {
+      "name": "Ghost",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Ghost/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost__ghost1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "ghost",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost__ghost1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost__ghost2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost__ghost3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost__ghost4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost__ghost1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Ghost-fury",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Ghost/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost-fury__ghost-fury-1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "ghost-fury",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost-fury__ghost-fury-1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost-fury__ghost-fury-2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Ghost__Sprites__Ghost-fury__ghost-fury-1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Fireball",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Lizzard/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__Fireball__fireball1.png",
+      "sheetWidth": 16,
+      "sheetHeight": 16,
+      "animations": [
+        {
+          "name": "fireball",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__Fireball__fireball1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__Fireball__fireball2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__Fireball__fireball3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__Fireball__fireball4.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__Fireball__fireball1.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        }
+      ]
+    },
+    {
+      "name": "lizard moves",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Lizzard/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-moves__lizard-move1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "lizard-move",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-moves__lizard-move1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-moves__lizard-move2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-moves__lizard-move3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-moves__lizard-move1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "lizard shoots",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Lizzard/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-shoots__lizard-shoot1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "lizard-shoot",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-shoots__lizard-shoot1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-shoots__lizard-shoot2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-shoots__lizard-shoot3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-shoots__lizard-shoot4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Lizzard__sprites__lizard-shoots__lizard-shoot1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Idle",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Mini Demon/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Idle__idle1.png",
+      "sheetWidth": 48,
+      "sheetHeight": 48,
+      "animations": [
+        {
+          "name": "idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Idle__idle1.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Idle__idle2.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Idle__idle3.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Idle__idle4.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Idle__idle1.png",
+          "sheetWidth": 48,
+          "sheetHeight": 48
+        }
+      ]
+    },
+    {
+      "name": "Run",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Mini Demon/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Run__run1.png",
+      "sheetWidth": 48,
+      "sheetHeight": 48,
+      "animations": [
+        {
+          "name": "run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Run__run1.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Run__run2.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Run__run3.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Run__run4.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 48,
+              "h": 48,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Run__run5.png",
+              "sheetWidth": 48,
+              "sheetHeight": 48
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Mini-Demon__Sprites__Run__run1.png",
+          "sheetWidth": 48,
+          "sheetHeight": 48
+        }
+      ]
+    },
+    {
+      "name": "Skeleton-IDle",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Skeleton/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-IDle__skeleton-idle1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "skeleton-idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-IDle__skeleton-idle1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-IDle__skeleton-idle2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-IDle__skeleton-idle3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-IDle__skeleton-idle4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-IDle__skeleton-idle1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Skeleton-Walk",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Skeleton/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "skeleton-walk",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk5.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk6.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk7.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk8.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Skeleton__Sprites__Skeleton-Walk__skeleton-walk1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Sprites",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Enemies/Slime",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Slime__Sprites__slime1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "slime",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Slime__Sprites__slime1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Slime__Sprites__slime2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Slime__Sprites__slime3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Slime__Sprites__slime4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Slime__Sprites__slime5.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Enemies__Slime__Sprites__slime1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Player-duck",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-duck__player-duck1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-duck",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-duck__player-duck1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-duck__player-duck2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-duck__player-duck3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-duck__player-duck1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Player-Hurt",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Hurt__player-hurt1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-hurt",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Hurt__player-hurt1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Hurt__player-hurt2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Hurt__player-hurt1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Player-idle",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-idle__player-idle1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-idle",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-idle__player-idle1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-idle__player-idle2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-idle__player-idle3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-idle__player-idle4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-idle__player-idle5.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-idle__player-idle6.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-idle__player-idle1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Player-jump",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-jump__player-jump1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-jump",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-jump__player-jump1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-jump__player-jump2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-jump__player-jump1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Player-Ladder",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Ladder__player-ladder1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-ladder",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Ladder__player-ladder1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Ladder__player-ladder2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Ladder__player-ladder3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Ladder__player-ladder4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Ladder__player-ladder1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Player-ledge-grab",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-ledge-grab__player-ledge-grab1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-ledge-grab",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-ledge-grab__player-ledge-grab1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-ledge-grab__player-ledge-grab2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-ledge-grab__player-ledge-grab3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-ledge-grab__player-ledge-grab4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-ledge-grab__player-ledge-grab5.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-ledge-grab__player-ledge-grab6.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-ledge-grab__player-ledge-grab1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "player-run",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__player-run__player-run1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-run",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__player-run__player-run1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__player-run__player-run2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__player-run__player-run3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__player-run__player-run4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__player-run__player-run5.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__player-run__player-run6.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__player-run__player-run1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Player-run-shoot",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-run-shoot__player-run-shoott1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-run-shoott",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-run-shoot__player-run-shoott1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-run-shoot__player-run-shoott2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-run-shoot__player-run-shoott3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-run-shoot__player-run-shoott4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-run-shoot__player-run-shoott5.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-run-shoot__player-run-shoott6.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-run-shoot__player-run-shoott1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Player-shoot",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-shoot__player-shoot1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-shoot",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-shoot__player-shoot1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-shoot__player-shoot2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-shoot__player-shoot3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-shoot__player-shoot1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Player-spin",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-spin",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin5.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin6.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin7.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin8.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-spin__player-spin1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Player-Wall-Slide",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Characters/Player/sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Wall-Slide__player-wall-slide1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 38,
+      "animations": [
+        {
+          "name": "player-wall-slide",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Wall-Slide__player-wall-slide1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 38,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Wall-Slide__player-wall-slide2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 38
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Characters__Player__sprites__Player-Wall-Slide__player-wall-slide1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 38
+        }
+      ]
+    },
+    {
+      "name": "Force-Field",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Environment",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Environment__Force-Field__force-field1.png",
+      "sheetWidth": 16,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "force-field",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Environment__Force-Field__force-field1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Environment__Force-Field__force-field2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Environment__Force-Field__force-field3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Environment__Force-Field__force-field4.png",
+              "sheetWidth": 16,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Environment__Force-Field__force-field5.png",
+              "sheetWidth": 16,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Environment__Force-Field__force-field1.png",
+          "sheetWidth": 16,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Big-Explosion",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Fx/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion1.png",
+      "sheetWidth": 64,
+      "sheetHeight": 64,
+      "animations": [
+        {
+          "name": "big-explosion",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 64,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion1.png",
+              "sheetWidth": 64,
+              "sheetHeight": 64
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 64,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion2.png",
+              "sheetWidth": 64,
+              "sheetHeight": 64
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 64,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion3.png",
+              "sheetWidth": 64,
+              "sheetHeight": 64
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 64,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion4.png",
+              "sheetWidth": 64,
+              "sheetHeight": 64
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 64,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion5.png",
+              "sheetWidth": 64,
+              "sheetHeight": 64
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 64,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion6.png",
+              "sheetWidth": 64,
+              "sheetHeight": 64
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 64,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion7.png",
+              "sheetWidth": 64,
+              "sheetHeight": 64
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 64,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion8.png",
+              "sheetWidth": 64,
+              "sheetHeight": 64
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 64,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion9.png",
+              "sheetWidth": 64,
+              "sheetHeight": 64
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Big-Explosion__big-explosion1.png",
+          "sheetWidth": 64,
+          "sheetHeight": 64
+        }
+      ]
+    },
+    {
+      "name": "Explosion",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Fx/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Explosion__explosion1.png",
+      "sheetWidth": 32,
+      "sheetHeight": 32,
+      "animations": [
+        {
+          "name": "explosion",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Explosion__explosion1.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Explosion__explosion2.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Explosion__explosion3.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 32,
+              "h": 32,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Explosion__explosion4.png",
+              "sheetWidth": 32,
+              "sheetHeight": 32
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Explosion__explosion1.png",
+          "sheetWidth": 32,
+          "sheetHeight": 32
+        }
+      ]
+    },
+    {
+      "name": "Pick Feedback",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Fx/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback__pick-feedback1.png",
+      "sheetWidth": 16,
+      "sheetHeight": 24,
+      "animations": [
+        {
+          "name": "pick-feedback",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 24,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback__pick-feedback1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 24
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 24,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback__pick-feedback2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 24
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 24,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback__pick-feedback3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 24
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 24,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback__pick-feedback4.png",
+              "sheetWidth": 16,
+              "sheetHeight": 24
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 24,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback__pick-feedback5.png",
+              "sheetWidth": 16,
+              "sheetHeight": 24
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 24,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback__pick-feedback6.png",
+              "sheetWidth": 16,
+              "sheetHeight": 24
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 24,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback__pick-feedback7.png",
+              "sheetWidth": 16,
+              "sheetHeight": 24
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback__pick-feedback1.png",
+          "sheetWidth": 16,
+          "sheetHeight": 24
+        }
+      ]
+    },
+    {
+      "name": "Pick Feedback 2",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Fx/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback-2__pick-feedback-2.png",
+      "sheetWidth": 16,
+      "sheetHeight": 16,
+      "animations": [
+        {
+          "name": "pick-feedback",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback-2__pick-feedback-2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback-2__pick-feedback-3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback-2__pick-feedback-4.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback-2__pick-feedback-5.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback-2__pick-feedback-6.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback-2__pick-feedback-7.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Pick-Feedback-2__pick-feedback-2.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        }
+      ]
+    },
+    {
+      "name": "Player-Shoot",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Fx/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-Shoot__player-shoot1.png",
+      "sheetWidth": 16,
+      "sheetHeight": 16,
+      "animations": [
+        {
+          "name": "player-shoot",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-Shoot__player-shoot1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-Shoot__player-shoot2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-Shoot__player-shoot3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-Shoot__player-shoot4.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-Shoot__player-shoot1.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        }
+      ]
+    },
+    {
+      "name": "Player-shoot-hit",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Fx/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-shoot-hit__player-shoot-hit1.png",
+      "sheetWidth": 16,
+      "sheetHeight": 16,
+      "animations": [
+        {
+          "name": "player-shoot-hit",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-shoot-hit__player-shoot-hit1.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-shoot-hit__player-shoot-hit2.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-shoot-hit__player-shoot-hit3.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 16,
+              "h": 16,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-shoot-hit__player-shoot-hit4.png",
+              "sheetWidth": 16,
+              "sheetHeight": 16
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Fx__Sprites__Player-shoot-hit__player-shoot-hit1.png",
+          "sheetWidth": 16,
+          "sheetHeight": 16
+        }
+      ]
+    },
+    {
+      "name": "Battery",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Props/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Props__Sprites__Battery__battery1.png",
+      "sheetWidth": 24,
+      "sheetHeight": 24,
+      "animations": [
+        {
+          "name": "battery",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 24,
+              "h": 24,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Props__Sprites__Battery__battery1.png",
+              "sheetWidth": 24,
+              "sheetHeight": 24
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 24,
+              "h": 24,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Props__Sprites__Battery__battery2.png",
+              "sheetWidth": 24,
+              "sheetHeight": 24
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Props__Sprites__Battery__battery1.png",
+          "sheetWidth": 24,
+          "sheetHeight": 24
+        }
+      ]
+    },
+    {
+      "name": "Fan",
+      "pack": "ansimuz/super-grotto-escape/Super Grotto Escape Files/Assets/Props/Sprites",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Props__Sprites__Fan__fan1.png",
+      "sheetWidth": 33,
+      "sheetHeight": 37,
+      "animations": [
+        {
+          "name": "fan",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 33,
+              "h": 37,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Props__Sprites__Fan__fan1.png",
+              "sheetWidth": 33,
+              "sheetHeight": 37
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 33,
+              "h": 37,
+              "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Props__Sprites__Fan__fan2.png",
+              "sheetWidth": 33,
+              "sheetHeight": 37
+            }
+          ],
+          "sheet": "sheets/ansimuz__super-grotto-escape__Super-Grotto-Escape-Files__Assets__Props__Sprites__Fan__fan1.png",
+          "sheetWidth": 33,
+          "sheetHeight": 37
+        }
+      ]
+    },
+    {
+      "name": "environment",
+      "pack": "ansimuz/warped-city-phaser/Warped City Phaser/assets",
+      "faction": "ansimuz",
+      "detector": "T3-loose-frames",
+      "sheet": "sheets/ansimuz__warped-city-phaser__Warped-City-Phaser__assets__environment__bg-1.png",
+      "sheetWidth": 384,
+      "sheetHeight": 224,
+      "animations": [
+        {
+          "name": "bg",
+          "speed": 9,
+          "loop": true,
+          "frames": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 384,
+              "h": 224,
+              "sheet": "sheets/ansimuz__warped-city-phaser__Warped-City-Phaser__assets__environment__bg-1.png",
+              "sheetWidth": 384,
+              "sheetHeight": 224
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 384,
+              "h": 224,
+              "sheet": "sheets/ansimuz__warped-city-phaser__Warped-City-Phaser__assets__environment__bg-2.png",
+              "sheetWidth": 384,
+              "sheetHeight": 224
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 1009,
+              "h": 224,
+              "sheet": "sheets/ansimuz__warped-city-phaser__Warped-City-Phaser__assets__environment__bg-3.png",
+              "sheetWidth": 1009,
+              "sheetHeight": 224
+            }
+          ],
+          "sheet": "sheets/ansimuz__warped-city-phaser__Warped-City-Phaser__assets__environment__bg-1.png",
+          "sheetWidth": 384,
+          "sheetHeight": 224
         }
       ]
     }
