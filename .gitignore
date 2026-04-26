@@ -12,6 +12,11 @@ public/typelands-promo/videos/
 public/typelands-promo/sounds/
 public/typelands-promo/fonts/
 
+# Generated game-asset spritesheets (regen with npm run assets:duelyst /
+# npm run assets:review). Manifests are kept; raw PNGs are not.
+public/duelyst-animations/spritesheets/
+public/asset-review/sheets/
+
 # Local agent/skill artifacts (installed per-project, not tracked).
 # Reinstall with: npx skills add remotion-dev/skills
 .agents/

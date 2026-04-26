@@ -41,7 +41,9 @@
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
-    "assets:typelands-promo": "node scripts/copy-typelands-assets.js"
+    "assets:typelands-promo": "node scripts/copy-typelands-assets.js",
+    "assets:duelyst": "node scripts/generate-duelyst-manifest.js",
+    "assets:review": "node scripts/generate-asset-manifest.js"
   },
   "sideEffects": [
     "*.css"
